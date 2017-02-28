@@ -1,0 +1,22 @@
+@import 'bower_components/normalize-scss/sass/normalize',
+        'bower_components/SpinKit/scss/spinners/10-fading-circle';
+
+#wrapper {
+  width: 480px;
+  height: 500px;
+  margin: auto;
+  overflow:auto;
+  ol {
+    display: flex;
+    flex-direction: column;
+    li {
+      padding: 15px 0;
+      background: green;
+      margin:15px 0
+    }
+  }
+}
+
+.sk-fading-circle {
+  display: none;
+}
